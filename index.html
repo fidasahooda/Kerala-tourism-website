@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KERALA TOURISM</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div>
+                <img src="/images/kerala_Tourism_logo.jpeg" alt="kerala_Tourism_logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#Districts">Districts</a></li>
+                    <li><button>Login</button></li>
+                    <li><button>Sign Up</button></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h1>Come and Enjoy Our Culture</h1>
+            <a href="">Learn More</a>
+            <a href="">Contact Us</a>
+        </section>
+    </main>
+    <hr>
+    <section>
+        <h1>Top Destinations</h1>
+        <article>
+            <img src="images/Bekal_Fort.jpg" alt="Bekal_Fort" height="300px" width="550px">
+            <p>Bekal Fort</p>
+        </article>
+        <article>
+            <img src="images/illikal kallu.jpeg" alt="illikal kallu" height="300px" width="550px">
+            <p>Illikal kallu</p>
+        </article>
+        <article>
+                <img src="images/Alappuzha.jpeg" alt="Alappuzha backwaters" height="300px" width="550px">
+                <p>Alappuzha backwaters</p>
+        </article>
+        <article>
+            <img src="images/Athirapally-waterfall.jpeg" alt="Athirapally waterfall" height="300px" width="550px">
+            <p>Athirapally waterfall</p>
+        </article>
+    </section>
+    <section>
+        <h1>About Kerala</h1>
+        <!-- kerala map -->
+         <img src="images/Kerala-Map-District.png" alt="kerala Map" height="400px" width="500px">
+         <!-- short write up about kerala -->
+          <p>Kerala, often called "God's Own Country," is a state on India's southwestern coast, bordered by Karnataka, Tamil Nadu, and the Arabian Sea. Known for its tropical climate and diverse landscapes, Kerala boasts beautiful beaches like Kovalam and Varkala, scenic backwaters, and lush hill stations such as Munnar and Wayanad. Its rich culture features festivals like Onam, classical dance forms like Kathakali, and traditional martial arts like Kalaripayattu. The state's economy thrives on agriculture, tourism, and remittances from Keralites working abroad. With the highest literacy rate in India and advanced healthcare facilities, Kerala is renowned for its progressive social indicators. Malayalam is the official language, and the state's cuisine, known for its use of coconut and spices, is highly regarded.</p>
+    </section>
+    <section id="Districts">
+        <h1>Districts</h1>
+        <ol>
+            <li><a href="#">Kasaragod</a></li>
+            <li><a href="#">Kannur</a></li>
+            <li><a href="#">Wayanad</a></li>
+            <li><a href="#">Kozhikode</a></li>
+            <li><a href="#">Malappuram</a></li>
+            <li><a href="#">Palakkad</a></li>
+            <li><a href="#">Thrissur</a></li>
+            <li><a href="#">Ernakulam</a></li>
+            <li><a href="#">Idukki</a></li>
+            <li><a href="#">Kottayam</a></li>
+            <li><a href="#">Alappuzha</a></li>
+            <li><a href="#">pathanamthitta</a></li>
+            <li><a href="#">Kollam</a></li>
+            <li><a href="#">Thiruvananthapuram</a></li>
+        </ol>
+    </section>
+    <fieldset>
+        <legend>Contact Us:</legend>
+        <form action="#">
+            <!-- Name,Email,phone,district drop down -->
+            <label for="Name">Name</label>
+            <input type="text" id="name" name="name" required pattern="[A-Za-z\s]+" title="Name should only contain letters and spaces"><br><br>
+            <label for="Email">Email</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="Number">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required pattern="\d{10}" title="phone number should be 10 digit"><br><br>
+            <!-- submit button -->
+    
+            <select name="districts" id="districts" required>
+                <option value="Kasaragod">Kasaragod</option>
+                <option value="Kannur">Kannur</option>
+                <option value="Wayanad">Wayanad</option>
+                <option value="Kozhikode">Kozhikode</option>
+                <option value="Malappuram">Malappuram</option>
+                <option value="Palakkad">Palakkad</option>
+                <option value="Thrissur">Thrissur</option>
+                <option value="Ernakulam">Ernakulam</option>
+                <option value="Idukki">Idukki</option>
+                <option value="Kottayam">Kottayam</option>
+                <option value="Alappuzha">Alappuzha</option>
+                <option value="pathanamthitta">pathanamthitta</option>
+                <option value="Kollam">Kollam</option>
+                <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+               
+            </select>
+            <input type="Submit" value="Submit">
+        
+            <!--  Include validation  -->
+        </form>
+    </fieldset>
+    <footer border="1">
+        <p>&copy;Fida sahooda.All rights reserved</p>
+    </footer>
+    
+</body>
+</html>
